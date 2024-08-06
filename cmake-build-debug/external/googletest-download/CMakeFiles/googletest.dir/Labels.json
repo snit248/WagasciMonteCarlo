@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/external/googletest-download/CMakeFiles/googletest"
+		},
+		{
+			"file" : "/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/external/googletest-download/CMakeFiles/googletest.rule"
+		},
+		{
+			"file" : "/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/external/googletest-download/CMakeFiles/googletest-complete.rule"
+		},
+		{
+			"file" : "/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-install.rule"
+		},
+		{
+			"file" : "/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule"
+		},
+		{
+			"file" : "/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-download.rule"
+		},
+		{
+			"file" : "/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-update.rule"
+		},
+		{
+			"file" : "/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-patch.rule"
+		},
+		{
+			"file" : "/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-configure.rule"
+		},
+		{
+			"file" : "/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-build.rule"
+		},
+		{
+			"file" : "/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest"
+		],
+		"name" : "googletest"
+	}
+}

@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/libB2MC.dir/B2BeamSummary.cc.o"
+  "CMakeFiles/libB2MC.dir/B2Boundary.cc.o"
+  "CMakeFiles/libB2MC.dir/B2ClusterSummary.cc.o"
+  "CMakeFiles/libB2MC.dir/B2Dial.cc.o"
+  "CMakeFiles/libB2MC.dir/B2DialList.cc.o"
+  "CMakeFiles/libB2MC.dir/B2DialSigmaKey.cc.o"
+  "CMakeFiles/libB2MC.dir/B2Dimension.cc.o"
+  "CMakeFiles/libB2MC.dir/B2EmulsionSummary.cc.o"
+  "CMakeFiles/libB2MC.dir/B2Enum.cc.o"
+  "CMakeFiles/libB2MC.dir/B2EventSummary.cc.o"
+  "CMakeFiles/libB2MC.dir/B2HitSummary.cc.o"
+  "CMakeFiles/libB2MC.dir/B2HitsSet.cc.o"
+  "CMakeFiles/libB2MC.dir/B2MagneticField.cc.o"
+  "CMakeFiles/libB2MC.dir/B2McWeightCalculator.cc.o"
+  "CMakeFiles/libB2MC.dir/B2Measurement.cc.o"
+  "CMakeFiles/libB2MC.dir/B2Pdg.cc.o"
+  "CMakeFiles/libB2MC.dir/B2Reader.cc.o"
+  "CMakeFiles/libB2MC.dir/B2ReaderDecorator.cc.o"
+  "CMakeFiles/libB2MC.dir/B2RefArray.cc.o"
+  "CMakeFiles/libB2MC.dir/B2Sigma.cc.o"
+  "CMakeFiles/libB2MC.dir/B2SigmaList.cc.o"
+  "CMakeFiles/libB2MC.dir/B2SpillSummary.cc.o"
+  "CMakeFiles/libB2MC.dir/B2TrackSummary.cc.o"
+  "CMakeFiles/libB2MC.dir/B2VertexSummary.cc.o"
+  "CMakeFiles/libB2MC.dir/B2Volume.cc.o"
+  "CMakeFiles/libB2MC.dir/B2Writer.cc.o"
+  "CMakeFiles/libB2MC.dir/G__B2MCDict.cxx.o"
+  "G__B2MCDict.cxx"
+  "libB2MC.pdb"
+  "libB2MC.so"
+  "libB2MC.so.0"
+  "libB2MC.so.0.2.0"
+  "libB2MCDict.rootmap"
+  "libB2MCDict_rdict.pcm"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/libB2MC.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,330 @@
+v0.2.0
+    [REFACTOR]
+        Stop using old SK tree and just copy NEUT tree
+        IB2Reader interface
+        Remove unused variables from B2EventSummary
+    [NEW FEATURE]
+        B2Dial class to store T2KReWeight dials
+        NINJA kink study mode added (generate particles from given distributions)
+        Add new branches for reconstructed momentum
+        Optical simulation-based-lightyield tuning for WallMRD scintillators
+        Emulsion summary variable added for muon matching study
+        ECC position offset tuned by data
+        add MUCL variables in B2TrackSummary
+    [BUGFIX]
+        debug about the attenuation in fibers for BabyMIND
+
+v0.1.15
+    [REFACTOR]
+        Renamed B2Track* enums and relative methods
+        Simplified B2HitSummary API
+        Improved classes in B2Measurement
+    [NEW FEATURE]
+        Tuned response of many detectors (Me, Odagawa, Yasutome)
+        Added pillar interaction (Odagawa)
+        Detector flags to disable certain detectors in each spill
+        Added TBranches for new variables (Me, Yasutome)
+        VETO plane enum
+    [BUGFIX]
+        Fixed MPPC to hit distance in WallMRD
+        NINJA and WallMRD position update (Odagawa)
+
+v0.1.14
+    [REFACTOR]
+        Put B2MagneticField class inside B2MC library
+        Removed all Search* methods
+        Count number of hits in each detector
+    [NEW FEATURE]
+        Clear difference between 2D and 3D objects
+        Sand muons flag
+        added slot numbers in wallmrd_mapping
+        Weight factor documentation
+
+v0.1.13
+    [NEW FEATURE]
+        NINJA simulation was updated (Odagawa)
+        Added clone method for reconstructed objects too
+        Simulate neutrino interactions inside Walls
+    [BUGFIX]
+        Fixed B2EventSummary::GetTotalCrossSection signature
+        Fixed WallMRD channel mapping
+    [REFACTOR]
+        Count number of hits according to view
+        Add disconnected channel 32 (channel ID 31) to the WallMRD map
+        Add version number to libB2MC.so
+
+v0.1.12
+    [BUGFIX]
+        Set automatically parent cluster and track when adding a hit
+    [NEW FEATURE]
+        NINJA sensitive detector
+
+v0.1.11
+    [BUGFIX]
+        Fixed bug when cloning tracks
+        Fixed bug where cluster ID and cluster reference were not recorded
+        Fixed nasty bug in B2SpillSummary iterators
+        Update B2Reader internal index when calling ReadSpill method
+        Fixed some clang warnings in MacOS Mojave
+        Fixed bug where the scintillator position error was not calculated
+    [NEW FEATURE]
+        Add option to search for special hits when cloning
+        Get number of hits in a single detector
+    [REFACTOR]
+        Better NINJA geometry definition (Odagawa)
+
+v0.1.10
+    [BUGFIX]
+        Fixed bug in plane/grid scintillator detection
+        Fixed cloning
+        Correct momentum and energy for pencil beam
+        Fixed bug where hits were not added to tracks
+        Avoid non ASCII characters
+    [NEW FEATURE]
+        Find the 2D interaction point between a line and a volume
+        Pions are green!
+        Add unique ID to some library classes
+        Record hit true time
+        script to create sample output
+    [REFACTOR]
+        Removed duplicate methods in B2SpillSummary
+        Scintillator position is the same for both readouts
+        Use ROOT PDG_t type instead of PdgId
+
+v0.1.9
+    [BUGFIX]
+        Fixed problem in installation script
+
+v0.1.8
+    [NEW FEATURE]
+        New B2Volume class to manage fiducial volumes
+        New flag in B2TrackSummary to check if a particle is stopping or not
+        Generate primary pencil beam
+    [REFACTOR]
+        Cleaned WAGASCI geometry in B2Dimension
+        Checked and improved the B2DetectorConstruction (WAGASCI)
+    [BUGFIX]
+        Add offset to relative hit position for WAGASCI and ProtonModule
+
+v0.1.7
+    [REFACTOR]
+        Refactor detector position offset map as global constant
+        A slightly more sane way to handle position offset
+    [DATA]
+        New sample output file
+
+v0.1.6
+    [NEW FEATURE]
+        New methods in B2SpillSummary to clone hits, clusters, etc...
+        New GetParentTrackId method
+        Increase compression level of output file
+        B2HitsSet::HasHit new method
+    [BUGFIX]
+        Better printing for B2TrackSummary
+        Fixed a bug in YasuTracker geometry (half of the modules were not simulated)
+        Fixed bug in WAGASCI geometry (water box depth)
+        Fixed bug in WAGASCI geometry (start of upstream plane)
+    [REFACTOR]
+        No need to specify readout for hit view field
+        Renamed some proton module and WAGASCI constants
+        Cleaned B2Dimension API
+        Moved some constants from B2DetectorConstruction to B2Const
+    [PROJECT STRUCTURE]
+        New output sample file
+        New GDML sample file
+        Added GPL3 licence
+    [INSTALLATION]
+        Use the .profile file instead of .bashrc during installation
+
+v0.1.5
+    [NEW FEATURE]
+        Differentiate between true branches and reconstructed branches
+        Calculate the angle of the particle with the zeta axis
+    [REFACTOR]
+        Proper naming convention for B2Utils functions
+    [BUGFIX]
+        Fixed bug in B2PrimaryGenerator and B2Configuration where the vertex
+        was in WAGASCI upstream when it should be in WAGASCI downstream instead
+
+v0.1.4
+    [NEW FEATURE]
+        Fill double readout hit summary
+        Search closest hit to point in B2SpillSummary
+        Search closest hit to point in B2EventSummary
+    [BUGFIX]
+        Fixed bug where GetWgsGrid was called for other detectors than WAGASCI
+    [REFACTOR]
+        New B2MichelElectron class
+
+v0.1.3
+    [BUGFIX]
+        Fixed Grid/Plane scintillator detection bug
+
+v0.1.2
+    [BUGFIX]
+        EnumClassHash as an hasher for maps with enum key
+        Improved B2Dimension class
+        Better printing for B2HitSummary
+    [NEW FEATURE]
+        New and old WallMRD mapping table
+        Added MergeHits method of B2HitSummary class
+        Added ReadSpill method of B2Reader class
+        Added Fill method of B2Writer class
+        Rule of Five for B2SpillSummary class
+        Clone hits from one spill to another
+        bunch_pot implemented as std::array instead of C array
+        Added G4GDMLParser to B2DetectorConstruction
+        Added Plane/Grid scintillator types
+    [PROJECT STRUCTURE]
+        Moved install scripts to tools folder
+        Reduced 'required' ROOT version to 6.14
+        New Sample file where a muon track is selected and analyzed
+
+v0.1.1
+    [PROJECT STRUCTURE]
+        Moved B2Const.hh into library
+        Moved B2Dimension class into library
+        Moved all enums in B2Const.hh to B2Enum.hh
+        Removed some sample NEUT files to save space
+    [NEW FEATURE]
+        New methods to set PEU in B2HitSummary
+        Included NINJA detector into new WAGASCI MC
+        Removed leftover Geant4 headers and variables from library
+        Improved sample reader
+        Full setup images by Kikawa-san
+        Added WAGASCI structure PDF
+        Better enum printing
+        Improved configuration system
+        Print version to console
+    [BUGFIX]
+        Increase log level to warning until settings are read
+    [CMAKE]
+        Install geometry files
+
+v0.1.0
+    [CMAKE]
+        CentOS 7 (KEKCC) compatibility
+        New FindB2MC.cmake to let other projects find this library
+
+v0.0.9
+    [CMAKE]
+        Fixed CentOS7 compatibility of install script
+        Fixed MacOS compatibility of CMake
+        Proper installation of library and headers
+
+v0.0.8
+    [BUGFIX]
+        Fixed linking bug of BOOST for macOS
+
+    [NEW FEATURE]
+        New B2Writer class to write the new data format to file
+
+v0.0.7
+    [BUGFIX]
+        Fixed compatibility issue with MacOS clang compiler
+
+v0.0.6
+    [BUGFIX]
+        Fixed bug in Proton Module vertex Z coordinate
+
+v0.0.5
+    [BUGFIX]
+        Fixed bug in B2SpillSummary
+
+    [NEW FEATURE]
+        New B2Reader class to read output data format
+        New sample code to show how to use B2Reader class
+
+v0.0.4
+    [BUGFIX]
+        Fixed bug in B2Utils
+        Fixed bug in installation script
+
+v0.0.3
+    [REFACTOR]
+        Complete refactor of any single file in the src folder
+        Complete refactor of WAGASCI library
+        Removed unused functions and variables
+        Refactor of B2Hit class (merged B2HLayerHit, B2VLayerHit and B2VetoHit classes)
+        Refactor of *SensitiveDetector classes (previously *SD classes)
+        Removed all hardcoded paths
+        Moved many constants to B2Const.hh and added new enums
+        Cleaned detectors position settings from B2PrimaryGeneratorAction
+        YASU tracker is traded as a almost separate detector from BabyMIND
+
+    [PROJECT STRUCTURE]
+        Refactor of data folder
+        Refactor of tools folder
+        Moved draw_field.C to tools folder
+        Added geometry files from Yasutome-san branch
+        Added useful PDF files
+        Removed unused files
+        Removed unused functions and variables
+
+    [Documentation]
+        Improved documentation for B2Neut class
+        New doxygen documentation
+        Better README file
+
+    [CMake]
+        Removed Make compatibility
+        Introduced BOOST dependency
+
+    [New features]
+        New B2Configuration, B2Settings and B2Logger classes
+        Added PDG_t enum to B2Pdg
+        Many new methods for better logging and printing of enums
+        New utility class B2Utils
+        New B2Measurement class
+        Many more unit tests
+        Better Geant4 visualization
+        Michel electron detection and recording
+        New B2CosmicMuon class to generate cosmic muons
+        New B2RandomVertexZ class to randomly generate the Z coordinate of the vertex
+        All units are now in mm (length), ns (time) and MeV (energy) to be compatible with Geant4
+
+
+v0.0.2
+    [REFACTOR]
+        B2MC.cc : better argument parsing and help printing
+        B2Neut.cc : better object oriented design with RAII
+                    removed dependency from CERNLIB
+                    better information printing to console
+        B2Const.cc : added settings enums
+                     interaction modes enum
+                     production modes enum
+    [NEW CLASSES]
+        B2Pdg : class to convert PDG particle ID to particle name
+    [PROJECT STRUCTURE]
+        Moved include/digitizion folder to babymind_digitization branch
+        Renamed Const.hh to B2Const.hh
+        Renamed Neut.hh to B2Neut.hh
+    [TESTS]
+        Google Test as external project
+        Unit tests for B2Neut class
+    [CMake]
+        Use C++11 instead of C++17
+
+v0.0.1
+    [PROJECT STRUCTURE]
+        following project structure conventions shown here : https://tinyurl.com/yybvb5z4
+        moved feneut folder into data folder
+        moved sample_neutfile folder into data folder
+        removed backup folders (not needed because we have git to trace back changes)
+        renamed shell folder into tools folder
+        renamed SampleCode into examples
+        renamed B2_Dimension into B2Dimension for coherence with other file names
+        renamed B2EVENTSUMMARY into B2EventSummary for coherence with other file names
+        moved gen_root_so.sh into tools folder
+        moved viewer into tools folder
+        moved B2MC.cc into src folder
+        removed the digitize folder (create a new branch for those)
+        removed examples/lib/directory because it is a duplicate
+        removed temporary .pcm files
+        renamed all .h files into .hh for coherence with other file names
+        renamed BeamInfoSummary into B2BeamSummary
+        renamed NeutInfoSummary into B2NeutInfoSummary
+    [CMake]
+        ported project to CMake (make building is deprecated but still possible)
+        Create ROOT dictionaries using CMake instead of shell script
+        Build one single library called libB2MC.so instead of many libraries for each class

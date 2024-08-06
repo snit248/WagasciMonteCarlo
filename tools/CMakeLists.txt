@@ -1,0 +1,5 @@
+if (BUILD_TOOLS)
+    add_subdirectory(plots)
+    add_subdirectory(checks)
+    message(STATUS "Building tools -- done")
+endif ()

@@ -1,0 +1,55 @@
+# Macro file for the visualization setting in the initialization phase
+# of the WAGASCI-BabyMIND Monte Carlo when running in interactive mode
+#
+
+# Use these open statements to open selected visualization
+#
+# Use this open statement to create an OpenGL view:
+/vis/open OGL 1600x1350-0+0
+
+# Disable auto refresh and quieten vis messages whilst scene and
+# trajectories are established:
+/vis/viewer/set/autoRefresh false
+/vis/verbose errors
+
+# Draw geometry:
+/vis/scene/create 0
+/vis/sceneHandler/attach
+/vis/scene/add/volume
+/vis/drawVolume
+
+# Draw axes : x-axis:red, y-axis:green, z-axis:blue
+# /vis/scene/add/axes 0 0 0 6 m
+
+# Set viewing angle
+/vis/viewer/set/viewpointThetaPhi -90 0 deg
+
+# Set interaction point size
+/vis/viewer/set/globalMarkerScale 0.1
+
+# Set zoom level
+/vis/viewer/zoom 5.0
+
+# Store trajectories in order to draw them
+# Set to zero for increased performance of if the memory becomes full and the program crashes
+/tracking/storeTrajectory 1
+/vis/modeling/trajectories/create/drawByParticleID
+/vis/modeling/trajectories/drawByParticleID-0/set gamma yellow
+/vis/modeling/trajectories/drawByParticleID-0/set e+ blue
+/vis/modeling/trajectories/drawByParticleID-0/set e- blue
+/vis/modeling/trajectories/drawByParticleID-0/set mu+ red
+/vis/modeling/trajectories/drawByParticleID-0/set mu- red
+/vis/modeling/trajectories/drawByParticleID-0/set proton white
+/vis/modeling/trajectories/drawByParticleID-0/set neutron grey
+/vis/modeling/trajectories/drawByParticleID-0/set pi+ green
+/vis/modeling/trajectories/drawByParticleID-0/set pi- green
+/vis/modeling/trajectories/drawByParticleID-0/set pi0 green
+
+# To visualize all the secondary particles
+# /vis/scene/add/trajectories smooth
+
+# Run the first interaction and stop
+# /run/beamOn 1
+
+# flush output
+/vis/viewer/flush

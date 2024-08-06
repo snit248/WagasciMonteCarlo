@@ -1,0 +1,1281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="WagasciBabyMindMonteCarlo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\geant4\;CMake Files\..\..\..\..\..\opt\geant4\lib\;CMake Files\..\..\..\..\..\opt\geant4\lib\Geant4-10.6.2\;CMake Files\..\..\..\..\..\opt\geant4\lib\Geant4-10.6.2\Modules\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_program_options-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_unit_test_framework-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log_setup-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_chrono-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_date_time-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\;CMake Files\..\..\..\Programs\;CMake Files\..\..\..\Programs\ROOT\;CMake Files\..\..\..\Programs\ROOT\current\;CMake Files\..\..\..\Programs\ROOT\current\cmake\;CMake Files\lib\;CMake Files\src\;CMake Files\tests\;CMake Files\external\;CMake Files\tools\;CMake Files\tools\plots\;CMake Files\tools\checks\;CMake Files\examples\;CMake Files\data\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libB2MC">
+				<Option output="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/lib/libB2MC.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVERSION=0.2.0"/>
+					<Add option="-DINSTALL_DATADIR=/tmp/WAGASCI/etc/wagasci/b2"/>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DBOOST_TEST_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PROGRAM_OPTIONS_DYN_LINK"/>
+					<Add option="-DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_SETUP_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_CHRONO_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add directory="/home/neo/Programs/ROOT/v6-22-02/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib"/>
+					<Add directory="/opt/geant4/include/Geant4"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 libB2MC"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libB2MC/fast">
+				<Option output="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/lib/libB2MC.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVERSION=0.2.0"/>
+					<Add option="-DINSTALL_DATADIR=/tmp/WAGASCI/etc/wagasci/b2"/>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DBOOST_TEST_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PROGRAM_OPTIONS_DYN_LINK"/>
+					<Add option="-DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_SETUP_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_CHRONO_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add directory="/home/neo/Programs/ROOT/v6-22-02/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib"/>
+					<Add directory="/opt/geant4/include/Geant4"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 libB2MC/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="G__B2MCDict">
+				<Option working_dir="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/lib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 G__B2MCDict"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="B2MC">
+				<Option output="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/src/B2MC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVERSION=0.2.0"/>
+					<Add option="-DINSTALL_DATADIR=/tmp/WAGASCI/etc/wagasci/b2"/>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DBOOST_TEST_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add option="-DG4LIB_BUILD_DLL"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PROGRAM_OPTIONS_DYN_LINK"/>
+					<Add option="-DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_SETUP_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_CHRONO_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add directory="/home/neo/Programs/ROOT/v6-22-02/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib"/>
+					<Add directory="/opt/geant4/include/Geant4"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 B2MC"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="B2MC/fast">
+				<Option output="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/src/B2MC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVERSION=0.2.0"/>
+					<Add option="-DINSTALL_DATADIR=/tmp/WAGASCI/etc/wagasci/b2"/>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DBOOST_TEST_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add option="-DG4LIB_BUILD_DLL"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PROGRAM_OPTIONS_DYN_LINK"/>
+					<Add option="-DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_SETUP_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_CHRONO_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add directory="/home/neo/Programs/ROOT/v6-22-02/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib"/>
+					<Add directory="/opt/geant4/include/Geant4"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 B2MC/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="detector_id">
+				<Option output="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots/detector_id" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVERSION=0.2.0"/>
+					<Add option="-DINSTALL_DATADIR=/tmp/WAGASCI/etc/wagasci/b2"/>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DBOOST_TEST_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PROGRAM_OPTIONS_DYN_LINK"/>
+					<Add option="-DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_SETUP_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_CHRONO_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add directory="/home/neo/Programs/ROOT/v6-22-02/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib"/>
+					<Add directory="/opt/geant4/include/Geant4"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots/Makefile&quot;  VERBOSE=1 detector_id"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="detector_id/fast">
+				<Option output="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots/detector_id" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVERSION=0.2.0"/>
+					<Add option="-DINSTALL_DATADIR=/tmp/WAGASCI/etc/wagasci/b2"/>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DBOOST_TEST_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PROGRAM_OPTIONS_DYN_LINK"/>
+					<Add option="-DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_SETUP_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_CHRONO_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add directory="/home/neo/Programs/ROOT/v6-22-02/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib"/>
+					<Add directory="/opt/geant4/include/Geant4"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots/Makefile&quot;  VERBOSE=1 detector_id/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="draw_field">
+				<Option output="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots/draw_field" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVERSION=0.2.0"/>
+					<Add option="-DINSTALL_DATADIR=/tmp/WAGASCI/etc/wagasci/b2"/>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DBOOST_TEST_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/neo/Programs/ROOT/v6-22-02/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/include"/>
+					<Add directory="/opt/geant4/include/Geant4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots/Makefile&quot;  VERBOSE=1 draw_field"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="draw_field/fast">
+				<Option output="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots/draw_field" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVERSION=0.2.0"/>
+					<Add option="-DINSTALL_DATADIR=/tmp/WAGASCI/etc/wagasci/b2"/>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DBOOST_TEST_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add directory="/home/neo/Programs/ROOT/v6-22-02/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/include"/>
+					<Add directory="/opt/geant4/include/Geant4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots/Makefile&quot;  VERBOSE=1 draw_field/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/plots/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check_timing">
+				<Option output="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/check_timing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVERSION=0.2.0"/>
+					<Add option="-DINSTALL_DATADIR=/tmp/WAGASCI/etc/wagasci/b2"/>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DBOOST_TEST_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PROGRAM_OPTIONS_DYN_LINK"/>
+					<Add option="-DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_SETUP_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_CHRONO_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add directory="/home/neo/Programs/ROOT/v6-22-02/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib"/>
+					<Add directory="/opt/geant4/include/Geant4"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 check_timing"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check_timing/fast">
+				<Option output="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/check_timing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVERSION=0.2.0"/>
+					<Add option="-DINSTALL_DATADIR=/tmp/WAGASCI/etc/wagasci/b2"/>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DBOOST_TEST_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PROGRAM_OPTIONS_DYN_LINK"/>
+					<Add option="-DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_SETUP_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_CHRONO_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add directory="/home/neo/Programs/ROOT/v6-22-02/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib"/>
+					<Add directory="/opt/geant4/include/Geant4"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 check_timing/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check_clusters">
+				<Option output="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/check_clusters" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVERSION=0.2.0"/>
+					<Add option="-DINSTALL_DATADIR=/tmp/WAGASCI/etc/wagasci/b2"/>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DBOOST_TEST_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PROGRAM_OPTIONS_DYN_LINK"/>
+					<Add option="-DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_SETUP_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_CHRONO_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add directory="/home/neo/Programs/ROOT/v6-22-02/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib"/>
+					<Add directory="/opt/geant4/include/Geant4"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 check_clusters"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check_clusters/fast">
+				<Option output="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/check_clusters" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVERSION=0.2.0"/>
+					<Add option="-DINSTALL_DATADIR=/tmp/WAGASCI/etc/wagasci/b2"/>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DBOOST_TEST_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PROGRAM_OPTIONS_DYN_LINK"/>
+					<Add option="-DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_SETUP_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_CHRONO_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add directory="/home/neo/Programs/ROOT/v6-22-02/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib"/>
+					<Add directory="/opt/geant4/include/Geant4"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 check_clusters/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check_hits">
+				<Option output="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/check_hits" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVERSION=0.2.0"/>
+					<Add option="-DINSTALL_DATADIR=/tmp/WAGASCI/etc/wagasci/b2"/>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DBOOST_TEST_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PROGRAM_OPTIONS_DYN_LINK"/>
+					<Add option="-DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_SETUP_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_CHRONO_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add directory="/home/neo/Programs/ROOT/v6-22-02/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib"/>
+					<Add directory="/opt/geant4/include/Geant4"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 check_hits"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check_hits/fast">
+				<Option output="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/check_hits" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVERSION=0.2.0"/>
+					<Add option="-DINSTALL_DATADIR=/tmp/WAGASCI/etc/wagasci/b2"/>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DBOOST_TEST_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_PROGRAM_OPTIONS_DYN_LINK"/>
+					<Add option="-DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_SETUP_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_CHRONO_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add directory="/home/neo/Programs/ROOT/v6-22-02/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/include"/>
+					<Add directory="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib"/>
+					<Add directory="/opt/geant4/include/Geant4"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 check_hits/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/tools/checks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/lib/G__B2MCDict.cxx">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug/lib/G__B2MCDict.cxx.rule">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2BeamSummary.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2BeamSummary.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2Boundary.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2Boundary.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2ClusterSummary.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2ClusterSummary.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2Const.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2Dial.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2Dial.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2DialList.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2DialList.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2DialSigmaKey.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2DialSigmaKey.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2Dimension.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2Dimension.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2EmulsionSummary.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2EmulsionSummary.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2Enum.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2Enum.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2EventSummary.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2EventSummary.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2HitSummary.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2HitSummary.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2HitsSet.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2HitsSet.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2MagneticField.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2MagneticField.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2McWeightCalculator.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2McWeightCalculator.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2Measurement.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2Measurement.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2Pdg.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2Pdg.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2Reader.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2Reader.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2ReaderDecorator.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2ReaderDecorator.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2RefArray.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2RefArray.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2Sigma.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2Sigma.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2SigmaList.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2SigmaList.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2SpillSummary.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2SpillSummary.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2TrackSummary.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2TrackSummary.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2VertexSummary.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2VertexSummary.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2Volume.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2Volume.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2Writer.cc">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/B2Writer.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/IB2Reader.hh">
+			<Option target="libB2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/B2Configuration.cc">
+			<Option target="B2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/B2Converters.cc">
+			<Option target="B2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/B2CosmicMuon.cc">
+			<Option target="B2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/B2DetectorConstruction.cc">
+			<Option target="B2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/B2EmulsionHit.cc">
+			<Option target="B2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/B2EmulsionSensitiveDetector.cc">
+			<Option target="B2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/B2EventAction.cc">
+			<Option target="B2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/B2HorizontalSensitiveDetector.cc">
+			<Option target="B2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/B2Logging.cc">
+			<Option target="B2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/B2MC.cc">
+			<Option target="B2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/B2MagneticFieldWrapper.cc">
+			<Option target="B2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/B2MichelElectron.cc">
+			<Option target="B2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/B2Neut.cc">
+			<Option target="B2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/B2PrimaryGeneratorAction.cc">
+			<Option target="B2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/B2RandomVertexZ.cc">
+			<Option target="B2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/B2Response.cc">
+			<Option target="B2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/B2RunAction.cc">
+			<Option target="B2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/B2ScintillatorHit.cc">
+			<Option target="B2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/B2SensitiveDetector.cc">
+			<Option target="B2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/B2Settings.cc">
+			<Option target="B2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/B2TrackingAction.cc">
+			<Option target="B2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/B2VerticalSensitiveDetector.cc">
+			<Option target="B2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/B2VetoSensitiveDetector.cc">
+			<Option target="B2MC"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/tools/checks/check_clusters.cc">
+			<Option target="check_clusters"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/tools/checks/check_hits.cc">
+			<Option target="check_hits"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/tools/checks/check_timing.cc">
+			<Option target="check_timing"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/tools/plots/detector_id.cc">
+			<Option target="detector_id"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/tools/plots/draw_field.cc">
+			<Option target="draw_field"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../opt/geant4/lib/Geant4-10.6.2/G4EXPATShim.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\geant4\lib\Geant4-10.6.2\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../opt/geant4/lib/Geant4-10.6.2/G4MotifShim.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\geant4\lib\Geant4-10.6.2\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../opt/geant4/lib/Geant4-10.6.2/G4X11Shim.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\geant4\lib\Geant4-10.6.2\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../opt/geant4/lib/Geant4-10.6.2/Geant4Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\geant4\lib\Geant4-10.6.2\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../opt/geant4/lib/Geant4-10.6.2/Geant4ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\geant4\lib\Geant4-10.6.2\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../opt/geant4/lib/Geant4-10.6.2/Geant4LibraryDepends-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\geant4\lib\Geant4-10.6.2\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../opt/geant4/lib/Geant4-10.6.2/Geant4LibraryDepends.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\geant4\lib\Geant4-10.6.2\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../opt/geant4/lib/Geant4-10.6.2/Geant4PackageCache.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\geant4\lib\Geant4-10.6.2\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../opt/geant4/lib/Geant4-10.6.2/UseGeant4.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\geant4\lib\Geant4-10.6.2\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../opt/geant4/lib/Geant4-10.6.2/Modules/IntelCompileFeatures.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\geant4\lib\Geant4-10.6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../opt/geant4/lib/Geant4-10.6.2/Modules/MSVCCompileFeatures.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\geant4\lib\Geant4-10.6.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/BoostDetectToolset-1.71.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupport_QCupsPrinterSupportPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/boost_system-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/boost_system-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/libboost_system-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/libboost_system-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_filesystem-1.71.0/boost_filesystem-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_filesystem-1.71.0/boost_filesystem-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_filesystem-1.71.0/libboost_filesystem-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_filesystem-1.71.0/libboost_filesystem-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_program_options-1.71.0/boost_program_options-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_program_options-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_program_options-1.71.0/boost_program_options-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_program_options-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_program_options-1.71.0/libboost_program_options-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_program_options-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_program_options-1.71.0/libboost_program_options-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_program_options-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_unit_test_framework-1.71.0/boost_unit_test_framework-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_unit_test_framework-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_unit_test_framework-1.71.0/boost_unit_test_framework-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_unit_test_framework-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_unit_test_framework-1.71.0/libboost_unit_test_framework-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_unit_test_framework-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_unit_test_framework-1.71.0/libboost_unit_test_framework-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_unit_test_framework-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_log_setup-1.71.0/boost_log_setup-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log_setup-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_log_setup-1.71.0/boost_log_setup-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log_setup-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_log_setup-1.71.0/libboost_log_setup-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log_setup-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_log_setup-1.71.0/libboost_log_setup-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log_setup-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.71.0/boost_atomic-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.71.0/boost_atomic-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.71.0/libboost_atomic-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.71.0/libboost_atomic-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_chrono-1.71.0/boost_chrono-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_chrono-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_chrono-1.71.0/boost_chrono-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_chrono-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_chrono-1.71.0/libboost_chrono-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_chrono-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_chrono-1.71.0/libboost_chrono-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_chrono-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_date_time-1.71.0/boost_date_time-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_date_time-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_date_time-1.71.0/boost_date_time-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_date_time-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_date_time-1.71.0/libboost_date_time-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_date_time-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_date_time-1.71.0/libboost_date_time-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_date_time-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_log-1.71.0/boost_log-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_log-1.71.0/boost_log-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_log-1.71.0/libboost_log-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_log-1.71.0/libboost_log-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/boost_regex-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/boost_regex-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/libboost_regex-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/libboost_regex-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0/boost_thread-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0/boost_thread-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0/libboost_thread-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0/libboost_thread-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../Programs/ROOT/current/cmake/ROOTConfig-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Programs\ROOT\current\cmake\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../Programs/ROOT/current/cmake/ROOTConfig-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Programs\ROOT\current\cmake\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../Programs/ROOT/current/cmake/ROOTConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Programs\ROOT\current\cmake\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../Programs/ROOT/current/cmake/ROOTConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Programs\ROOT\current\cmake\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../Programs/ROOT/current/cmake/ROOTUseFile.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Programs\ROOT\current\cmake\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/../../../Programs/ROOT/current/cmake/RootMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Programs\ROOT\current\cmake\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/external/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tools\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/tools/plots/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tools\plots\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/tools/checks/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tools\checks\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\"/>
+		</Unit>
+		<Unit filename="/home/neo/Code/WAGASCI/WagasciMonteCarlo/data/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\data\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

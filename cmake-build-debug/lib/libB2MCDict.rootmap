@@ -1,0 +1,83 @@
+{ decls }
+namespace __gnu_cxx {  }
+class B2Dial;
+namespace __gnu_cxx { template <typename _Iterator, typename _Container> class __normal_iterator; }
+namespace std {  }
+template <typename T> class B2VectorDoubleReadout;
+class B2Vector3;
+template <typename T> class B2SingleBoundary;
+template <typename T> class B2DoubleBoundary;
+template <typename T> class B2PointLikeBoundary;
+
+[ libB2MCDict.so ]
+# List of selected classes
+class B2Angle
+class B2BeamSummary
+class B2Boundary
+class B2ClusterSummary
+class B2Dial
+class B2DialList
+class B2Direction
+class B2Distance
+class B2DoubleBoundary<std::vector<double> >
+class B2DoubleBoundary<std::vector<int> >
+class B2DoubleBoundary<vector<double> >
+class B2DoubleBoundary<vector<int> >
+class B2DoubleBoundarySet
+class B2EmulsionSummary
+class B2Energy
+class B2EventSummary
+class B2HitSummary
+class B2HitsSet
+class B2Measurement1D
+class B2Measurement2D
+class B2Measurement3D
+class B2Momentum
+class B2PointLikeBoundary<std::vector<double> >
+class B2PointLikeBoundary<std::vector<int> >
+class B2PointLikeBoundary<vector<double> >
+class B2PointLikeBoundary<vector<int> >
+class B2Position
+class B2RefArray
+class B2SigmaList
+class B2SingleBoundary<double>
+class B2SingleBoundary<int>
+class B2SpillSummary
+class B2Time
+class B2TrackSummary
+class B2Vector3
+class B2VectorDoubleReadout<B2Vector3>
+class B2VectorDoubleReadout<Double_t>
+class B2VectorDoubleReadout<Int_t>
+class B2VectorDoubleReadout<double>
+class B2VectorDoubleReadout<int>
+class B2VertexSummary
+class B2ViewAngle
+class _Rb_tree_const_iterator<B2Sigma>
+class __gnu_cxx::__normal_iterator<B2Dial const*,vector<B2Dial> >
+class __gnu_cxx::__normal_iterator<B2Dial*,vector<B2Dial> >
+class __gnu_cxx::__normal_iterator<const B2Dial*,vector<B2Dial> >
+class set<B2Sigma>
+class set<B2Sigma>::iterator
+class vector<B2Dial>
+class vector<B2Dial>::const_iterator
+class vector<B2Dial>::iterator
+header B2Measurement.hh
+header B2BeamSummary.hh
+header B2Boundary.hh
+header B2ClusterSummary.hh
+header B2Dial.hh
+header B2DialList.hh
+header B2EmulsionSummary.hh
+header B2EventSummary.hh
+header B2HitSummary.hh
+header B2HitsSet.hh
+header B2RefArray.hh
+header B2SigmaList.hh
+header B2SpillSummary.hh
+header B2TrackSummary.hh
+header B2VertexSummary.hh
+# List of selected typedefs and outer classes
+typedef B2DoubleReadoutI
+typedef B2DoubleReadoutD
+typedef B2DoubleReadout3

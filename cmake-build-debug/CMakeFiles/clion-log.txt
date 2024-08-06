@@ -1,0 +1,12 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/tmp/WAGASCI -DWITH_G4VIS=OFF -DNINJA=OFF -DWITH_GDML=OFF -DBUILD_TESTS=OFF -DBUILD_EXAMPLES=OFF -DBUILD_TOOLS=ON -G "CodeBlocks - Unix Makefiles" -S /home/neo/Code/WAGASCI/WagasciMonteCarlo -B /home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug
+-- Found Geant4: /opt/geant4/include/Geant4
+-- Found Geant4 UI tcsh: 1
+-- Found ROOT: /home/neo/Programs/ROOT/v6-22-02/include
+-- BOOST version : 1.71.0
+-- BOOST library directory : /usr/lib/x86_64-linux-gnu
+-- BOOST include directory : /usr/include
+-- Compiler ID : GNU
+-- Building tools -- done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/neo/Code/WAGASCI/WagasciMonteCarlo/cmake-build-debug
